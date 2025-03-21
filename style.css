@@ -1,0 +1,158 @@
+.container{
+color: black;
+background-color:azure;
+text-align: center;
+margin: 0;
+}
+.logo{
+    background-color: #333;
+    color:white;
+    font-size:large;
+    font-weight: 1000;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 8px;
+    float: left;
+    height: 34px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 12px;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+
+}
+/* .nav{
+    background-color:rgb(49, 49, 49);
+    height: 60px;
+    padding: 10px 0px 8px 900px;
+    margin: 0;
+} */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-right:40px
+  }
+  
+  li {
+    float: right;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  
+.header{
+    background-color:rgb(235, 240, 240);
+    margin: 0px;
+    padding: 100px;
+}
+.header #home a{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+}
+.header #home a:hover:not(.active) {
+    background-color: #111;
+  }
+.main{
+    background-color:azure;
+    /* margin: 30px; */
+    /* padding: 10px; */
+}
+#about{
+    /* background-color: rgb(72, 75, 75); */
+    /* background-color:azure; */
+
+    /* margin-bottom: 200px; */
+}
+.abou{
+    float: left;
+    /* background-color:azure; */
+    width: 50%;
+    height: 400px;
+    padding: 60px;
+    text-align: left;
+    /* margin-bottom: 20px; */
+}
+#about .abou a{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+#about .abou a:hover:not(.active) {
+    background-color: #111;
+  }
+#about img{
+    float: right;
+    width: 30%;
+    /* background-color:azure; */
+    height: 400px;
+    padding: 60px;
+    /* margin-bottom: 20px; */
+
+
+}
+.main #services{
+    /* margin-top: 200px; */
+    /* background-color:rgb(228, 243, 243) ; */
+    /* background-color:rgb(235, 240, 240); */
+
+    /* background-color:azure; */
+
+}
+#services img{
+    width: 20%;
+    height: 300px;
+    padding: 6px;
+}
+#contact{
+    /* background-color:azure;
+    background-color:rgb(235, 240, 240); */
+    padding: 60px;
+    /* margin-top: 30px; */
+}
+#contact input[type=submit]{
+    background-color: #333;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+}
+#contact input[type=submit]:hover:not(.active) {
+    background-color: #111;
+  }
+#footer{
+    background-color:rgb(49, 49, 49);
+    color: white;
+    padding: 4px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
