@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cantainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: aqua;
+    /* max-width: 1100px; */
+}
+#navbar{
+    background-color: #1f3d24;
+    height: 60px;
+    width: 100%;
+}
+#h1{
+    color: white;
+    padding: 14px 16px;
+    /* width: 30%; */
+    background-color: #1f3d24;
+    
+    
+    float: left;
+    padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+    overflow: hidden;
+    background-color: #1f3d24;
+    
+    float: right;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 20px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: rgb(11, 151, 6);
+    color:rgb(22, 43, 21) ;
+    border-radius: 8px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#header{
+    width: 100%;
+    height: 550px;
+    background:linear-gradient(100deg,rgb(27, 112, 32),rgb(20, 161, 30),rgb(240, 255, 241)) ;
+}
+#contant{
+    width: 30%;
+    height: 200px;
+    /* background-color: aqua; */
+    float: left;
+    padding-top: 170PX;
+    padding-left: 200px;
+}
+#t-1{
+    color: rgb(197, 207, 203);
+}
+#img{
+    /* box-shadow: #111,20px; */
+width: 30%;
+height: 450px;
+float: right;
+background-image:linear-gradient(100deg,rgba(6, 240, 22, 0.363),rgba(216, 247, 218, 0.37),rgba(232, 247, 233, 0.349)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTAO1CedVcrsA_Jty8kRiRrQBbwZswEvqlXA&s);
+padding-top: 100px;
+padding-right: 50px;
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#about{
+    width: 100%;
+    background-color: rgb(224, 238, 228);
+    height: 350px;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+.about1{
+    float: left;
+    /* margin: 30px; */
+    padding: 30px;
+    width: 50%;
+    background-color: rgb(213, 233, 218);
+}
+.about2{
+    float: left;
+    /* margin: 30px; */
+    padding: 20px;
+    width: 30%;
+    /* background-color: rgb(218, 231, 231); */
+}
+#services{
+    background-color: rgb(235, 250, 239);
+    width: 100%;
+    height: 420px;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+.box1{
+ background: linear-gradient(100deg,rgb(6, 240, 22),rgb(19, 167, 29),rgb(17, 107, 23));
+ box-shadow: #111;
+ box-sizing: border-box;
+ border-radius: 20px;
+ width: 20%;
+ height: 250px;
+ flex: 0 0 auto;
+ float: left;
+ padding: 60px;
+ margin: 30px;
+ margin-left: 170px;
+
+}
+.box2{
+    background: linear-gradient(100deg,rgb(6, 240, 22),rgb(19, 167, 29),rgb(17, 107, 23));
+    box-shadow: #111;
+    box-sizing: border-box;
+ border-radius: 20px;
+ width: 20%;
+ height: 250px;
+ float: left;
+ padding: 60px;
+ margin: 30px;
+ flex: 0 0 auto;
+ 
+}
+.box3{
+    background: linear-gradient(100deg,rgb(6, 240, 22),rgb(19, 167, 29),rgb(17, 107, 23));
+    box-shadow: #111;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+ border-radius: 20px;
+ width: 20%;
+ height: 250px;
+
+ float: left;
+ padding: 60px;
+ margin: 30px;
+
+}
+#contact{
+    /* background-color:azure;*/
+    background-color:rgb(215, 241, 218); 
+    padding: 60px;
+    /* margin-top: 30px; */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.input{
+    width: 30%;
+    /* height: 30px; */
+    background-color: rgb(233, 253, 233);
+    border-radius:10px ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid #111;
+    box-sizing: border-box;
+}
+.textarea{
+    width: 30%;
+    height: 150px;
+    background-color: rgb(233, 253, 233);
+    border-radius:10px ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid #111;
+    box-sizing: border-box;
+}
+#contact input[type=submit]{
+    background-color: #1f3d24;
+    
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+}
+#contact input[type=submit]:hover:not(.active) {
+    background-color: rgb(28, 204, 22);
+    color:rgb(22, 43, 21) ;
+    border-radius: 8px;
+    
+  }
+
+#footer{
+    /* background: linear-gradient(0deg,rgb(6, 240, 22),rgb(19, 167, 29),rgb(17, 107, 23)); */
+    background-color: #1f3d24;
+height: 15px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+
+}
